@@ -27,9 +27,9 @@ owl                           	--根目录
         
 4.使用说明
 运行环境；
-	配置好java的linux环境（如ubuntu）
-	将6个百科和维基百科的语料文件放在owl/data下
-	将jena的全部jar文件放在owl/lib下
+	配置好java的linux环境（如ubuntu）  
+	将6个百科和维基百科的语料文件放在owl/data下  
+	将jena的全部jar文件放在owl/lib下  
 运行：
 	./compile.sh
 	./run.sh
