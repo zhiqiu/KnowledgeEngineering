@@ -17,13 +17,13 @@ owl                           	--根目录
 ├── lib/						--jena API的jar包目录（需要jena的jar文件放在此处）  
 ├── etc/						--生成的本体模型及其他文件的目录  
 └── src/						--源代码  
-&emsp├── ArticleReader.java      --处理百度Article、维基Article的类  
-&emsp├── CategoryReader.java     --处理百度Category、维基Category的类  
-&emsp├── CreateOntology.java     --程序入口，包含main函数，创建本体，进行统计和查询等  
-&emsp├── LinkReader.java         --处理百度、维基中英文对照的类  
-&emsp├── SPARQL.java              --进行SPARQL查询的类  
-&emsp├── Statistics.java         --进行统计的类  
-&emsp└── XmlFilter.java          --进行特殊字符的过滤  
+&emsp;├── ArticleReader.java      --处理百度Article、维基Article的类  
+&emsp;├── CategoryReader.java     --处理百度Category、维基Category的类  
+&emsp;├── CreateOntology.java     --程序入口，包含main函数，创建本体，进行统计和查询等  
+&emsp;├── LinkReader.java         --处理百度、维基中英文对照的类  
+&emsp;├── SPARQL.java              --进行SPARQL查询的类  
+&emsp;├── Statistics.java         --进行统计的类  
+&emsp;└── XmlFilter.java          --进行特殊字符的过滤  
         
 4.使用说明  
 运行环境；  
