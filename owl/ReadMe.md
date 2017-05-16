@@ -8,8 +8,8 @@ ReadMe.txt
 根据百科和维基百科的语料，构建本体模型，并进行一定的统计和查询。
 
 3.目录和文件说明
-owl                           	--根目录   
-├── compile.sh                 	--编译脚本
+owl                           	--根目录  
+├── compile.sh                 	--编译脚本  
 ├── run.sh                 		--运行脚本
 ├── ReadMe.txt					--使用说明
 ├── bin/						--java编译生成的class文件目录
