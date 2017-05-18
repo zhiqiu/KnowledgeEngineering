@@ -124,7 +124,7 @@ public class ArticleReader {
             if(!leafClass.hasSubClass()){
                 // create individual if not exist
                 if(ArticleIdMap.containsKey(title)){
-                    individual = model.getIndividual(CreateOntology.articleNameSpace+ ArticleIdMap.get(title));
+                    individual = model.getIndividual(CreateOntology.articleNameSpace+ ArticleIdMap.get(link));
                     individual.addOntClass(leafClass);
                 }else{
                     id ++;
